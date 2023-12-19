@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/ImgFoto"
+        android:layout_width="122dp"
+        android:layout_height="140dp"
+        android:contentDescription="@string/imagen_ejemplo"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/LblEtiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/escribe_algo"
+        android:background="#C8A2C8"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/TxtImagenHint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_usuario"
+        android:hint="@string/usuario"
+        android:textColorHint="#CFCFCF"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TxtBasico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escribe aquí" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textViewTurno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turno de Jugador 1" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3"
+        android:layout_gravity="center"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/button00"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button01"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button02"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button10"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button12"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button20"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button21"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button22"
+            style="@style/TicTacToeButton" />
+
+    </GridLayout>
+
+
+    <TextView
+        android:id="@+id/textViewGanador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="Ganador: Jugador 1" />
+
+    <Button
+        android:id="@+id/buttonReiniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reiniciar Juego"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/TxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/BtnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtNombre"
+        android:layout_alignParentRight="true"
+        android:text="Aceptar" />
+
+    <TextView
+        android:id="@+id/TxtMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mensaje"
+        android:layout_below="@id/BtnAceptar"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/TxtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_below="@id/TxtMensaje"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
+

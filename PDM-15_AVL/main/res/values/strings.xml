@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">P15_AlexanderVillalobos</string>
+    <string-array name="grados_academicos">
+        <item>Bachillerato</item>
+        <item>Licenciatura</item>
+        <item>Maestría</item>
+        <item>Doctorado</item>
+    </string-array>
+</resources>

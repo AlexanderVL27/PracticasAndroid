@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LytContenedor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/BtnBotonSimple"
+    android:text="@string/click"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <ToggleButton android:id="@+id/BtnToggle"
+    android:textOn="@string/on"
+    android:textOff="@string/off"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <Switch android:id="@+id/BtnSwitch"
+    android:textOn="@string/on"
+    android:textOff="@string/off"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <ImageButton android:id="@+id/BtnImagen"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/icono_ok"
+    android:src="@drawable/ic_estrella" />
+
+    <Button android:id="@+id/BtnBotonMasImagen"
+    android:text="@string/click"
+    android:drawableLeft="@drawable/ic_estrella"
+    android:drawablePadding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <ToggleButton android:id="@+id/BtnPersonalizado"
+    android:textOn=""
+    android:textOff=""
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/toggle_style" />
+
+    <ImageButton android:id="@+id/BtnSinBorde"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:contentDescription="@string/icono_ok"
+    android:src="@drawable/ic_estrella"
+    style="?android:borderlessButtonStyle"/>
+
+    <TextView
+        android:id="@+id/lblMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+</LinearLayout>
